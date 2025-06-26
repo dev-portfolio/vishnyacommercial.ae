@@ -64,6 +64,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  text-align: justify;
 }
 
 a {
@@ -1181,10 +1182,14 @@ section,
   color: var(--accent-color);
 }
 
-.about .testimonial-section .testimonial-item p {
-  font-size: 18px;
+.about .testimonial-section .testimonial-intro .mission-statement {
+  font-size: 36px;
 }
 
+
+.about .testimonial-section .founder-business {
+  font-size:16px;
+}
 
 .about .testimonial-section .testimonial-item {
   background-color: var(--surface-color);
@@ -1279,7 +1284,7 @@ section,
 }
 
 .services .service-card {
-  padding: 40px 40px 40px 40px;
+  padding: 35px 35px 35px 35px;
   margin-bottom: 30px;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
   transition: all 0.3s ease;
@@ -1522,6 +1527,15 @@ section,
   margin-bottom: 0;
 }
 
+  .steps .badge {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 2rem;
+}
+
 @media (max-width: 991px) {
   .steps .steps-wrapper::before {
     left: 25px;
@@ -1574,6 +1588,8 @@ section,
   .steps p {
     font-size: 0.95rem;
   }
+  
+
 }
 
 /*--------------------------------------------------------------
@@ -1598,7 +1614,7 @@ section,
 }
 
 .call-to-action h2 {
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
   margin: 0;
