@@ -21,7 +21,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color:	#66717a; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #841326ad; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #841326; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #841326; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #F6F6F6; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -87,8 +87,9 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
-  font-weight: 300;
+  font-weight: 400;  
 }
+
 
 /* PHP Email Form Messages
 ------------------------------*/
@@ -720,7 +721,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 50px 0;
   scroll-margin-top: 90px;
   overflow: clip;
 }
@@ -767,8 +768,8 @@ section,
   color: var(--heading-color);
   margin: 0;
   margin: 0;
-  font-size:40px;
-  font-weight: 300;
+  font-size:36px;
+  font-weight: 400;
   text-transform: uppercase;
   font-family: var(--heading-font);
 }
@@ -831,11 +832,11 @@ section,
 
 .hero .main-heading {
   margin-bottom: 2rem;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 
 .hero .main-heading h1 {
-  font-size: 51px;
+  font-size: 42px;
   font-weight: 400;
   line-height: 1.1;
   letter-spacing: -1px;
@@ -1108,7 +1109,7 @@ section,
 }
 
 .about .about-content h2 {
-  font-size: 2.2rem;
+  font-size: 32px;
   margin-bottom: 1.25rem;
   font-weight: 300;
 }
@@ -1152,7 +1153,7 @@ section,
 }
 
 .about .about-content .feature-item h5 {
-  font-size: 1.15rem;
+  font-size: 16px;
   margin-bottom: 0.75rem;
   /* font-weight: 600; */
 }
@@ -1188,7 +1189,7 @@ section,
 }
 
 .about .testimonial-section .testimonial-intro .mission-statement {
-  font-size: 28px;
+  font-size: 18px;
 }
 
 
@@ -1270,7 +1271,7 @@ section,
 }
 
 .services .service-header .service-intro .service-heading {
-  font-size: 48px;
+  font-size: 36px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 1.2;
@@ -1337,7 +1338,7 @@ section,
 }
 
 .services .service-card {
-  padding: 35px 35px 35px 35px;
+  padding: 30px;
   margin-bottom: 30px;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
   transition: all 0.3s ease;
@@ -1362,7 +1363,7 @@ section,
 }
 
 .services .service-card h3 {
-  font-size: 28px;
+  font-size: 20px;
   margin-bottom: 15px;
   /* font-weight: 700; */
 }
@@ -1654,7 +1655,7 @@ section,
   background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
   border-radius: 1rem;
   overflow: hidden;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .call-to-action .badge {
@@ -1700,7 +1701,8 @@ section,
 }
 
 .call-to-action .features .feature-item span {
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .call-to-action .cta-buttons .btn {
@@ -1741,8 +1743,8 @@ section,
 }
 
 .call-to-action .content-right img {
-  width: 100%;
-  height: auto;
+  width: 460px;
+  height: 300px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
