@@ -838,8 +838,8 @@ section,
 
 .hero .main-heading h1 {
   font-size: 42px;
-  font-weight: 400;
-  text-shadow: 1px 1px 5px #ffffff, 0 0 5px #ffffff, 0 0 5px #ffffff;
+  font-weight: 300;
+  text-shadow: 0.5px 0.5px 0px #ffffff, 0 0 5px #ffffff, 0 0 5px #ffffff;
   line-height: 1.1;
   letter-spacing: -1px;
   margin: 0;
