@@ -769,7 +769,7 @@ section,
   margin: 0;
   margin: 0;
   font-size:36px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   font-family: var(--heading-font);
 }
@@ -1110,8 +1110,7 @@ section,
   }
 }
 
-.about .about-content h2 {
-  font-size: 32px;
+.about .about-content h4 {
   margin-bottom: 1.25rem;
   font-weight: 300;
 }
@@ -1122,9 +1121,9 @@ section,
   }
 }
 
-.about .about-content .lead {
-  font-size: 1.15rem;
-  margin-bottom: 1.25rem;
+.about .about-content .lead1 {
+  /* font-size: 1.15rem; */
+  /* margin-bottom: 1.25rem; */
   color: color-mix(in srgb, var(--heading-color), transparent 30%);
 }
 
@@ -1190,9 +1189,9 @@ section,
   color: var(--accent-color);
 }
 
-.about .testimonial-section .testimonial-intro .mission-statement {
-  font-size: 18px;
-}
+/* .about .testimonial-section .testimonial-intro .mission-statement { */
+  /* font-size: 18px; */
+/* } */
 
 
 .about .testimonial-section .founder-business {
