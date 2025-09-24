@@ -2656,6 +2656,10 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+#contact {
+	 padding: 25px 0 0 0;
+}
+
 .contact .contact-info-box {
   background-color: var(--surface-color);
   border-radius: 10px;
